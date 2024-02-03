@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.ejemplo.org#">
+  <rdf:Description rdf:about="http://www.uniovi.es">
+    <dc:autor>
+        <rdf:Description rdf:about="http://recshop.fake/cd/Beatles/JuanGallardo">
+        <dc:Se_llama>Juan Gallardo</dc:Se_llama>
+        <dc:edad>26</dc:edad>
+        <dc:email>juan@uniovi.es</dc:email>
+      </rdf:Description>
+    </dc:autor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.euitio.uniovi.es">
+    <dc:autor>
+      <rdf:Description rdf:about="http://recshop.fake/cd/Beatles/Isabel">
+        <dc:Se_llama>Isabel Castilla</dc:Se_llama>
+        <dc:edad>25</dc:edad>
+        <dc:email>esisa@uniovi.es</dc:email>
+      </rdf:Description>
+    </dc:autor>
+  </rdf:Description>
+</rdf:RDF>

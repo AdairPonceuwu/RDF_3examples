@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.ejemplo.org#">
+  <rdf:Description rdf:about="Biblioteca">
+    <dc:make_up>
+        <rdf:Description rdf:about="Libro">
+            <dc:has>
+                ISBN
+            </dc:has>
+            <dc:written_by>
+                <rdf:Description rdf:about="autor">
+                    <dc:has>
+                    Nombre
+                    </dc:has>
+                    <dc:has>
+                    Email
+                    </dc:has>
+                    <dc:has>
+                    Direccion
+                    </dc:has>
+                </rdf:Description>
+            </dc:written_by>
+            <dc:divided_by>
+                <rdf:Description rdf:about="capitulo">
+                    <dc:has>
+                        Nombre
+                    </dc:has>
+                    <dc:divided_by>
+                    <rdf:Description rdf:about="seccion">
+                        <dc:has>
+                            Titulo
+                        </dc:has>
+                        <dc:has>
+                            Nombre
+                        </dc:has>
+                        <dc:has>
+                            Contenido
+                        </dc:has>
+                    </rdf:Description>
+                    </dc:divided_by>
+                </rdf:Description>
+            </dc:divided_by>
+        </rdf:Description>
+    </dc:make_up>
+  </rdf:Description>
+</rdf:RDF>

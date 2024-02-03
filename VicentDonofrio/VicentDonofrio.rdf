@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://www.ejemplo.org#">
+  <rdf:Description rdf:about="Vincent_donofrio">
+    <dc:has_name>
+        Vincent D'Onofrio
+    </dc:has_name>
+    <dc:starred_in>
+        <rdf:Description rdf:about="the_thirteenth_floor">
+            <dc:similar_plot_as>
+                <rdf:Description rdf:about="the_matrix">
+                    <dc:is_a>
+                        <rdf:Description rdf:about="movie">
+                        </rdf:Description>
+                    </dc:is_a>
+                    <dc:realased_in>
+                        1999
+                    </dc:realased_in>
+                </rdf:Description>
+            </dc:similar_plot_as>
+            <dc:is_a>
+                <rdf:Description rdf:about="movie">
+                </rdf:Description>
+            </dc:is_a>
+            <dc:realased_in>
+                1999
+            </dc:realased_in>
+        </rdf:Description>
+    </dc:starred_in>
+
+    <dc:starred_in>
+        <rdf:Description rdf:about="Law_&amp;_order_criminal_intent">
+        </rdf:Description>
+    </dc:starred_in>
+
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="Chris_noth">
+    <dc:starred_in>
+      <rdf:Description rdf:about="Law_&amp;_order_criminal_intent">
+        <dc:is_a>
+            <rdf:Description rdf:about="tv_show">
+            </rdf:Description>
+        </dc:is_a>
+      </rdf:Description>
+    </dc:starred_in>
+    <dc:starred_in>
+      <rdf:Description rdf:about="Sex_and_the_city">
+        <dc:is_a>
+          <rdf:Description rdf:about="tv_show">
+          </rdf:Description>
+        </dc:is_a>
+      </rdf:Description>
+    </dc:starred_in>
+  </rdf:Description>
+</rdf:RDF>
+
+  
