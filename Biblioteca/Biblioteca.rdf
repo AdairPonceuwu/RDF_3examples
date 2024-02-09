@@ -4,38 +4,38 @@ xmlns:dc="http://www.ejemplo.org#">
   <rdf:Description rdf:about="Biblioteca">
     <dc:make_up>
         <rdf:Description rdf:about="Libro">
-            <dc:has>
-                ISBN
-            </dc:has>
+            <dc:hasISBN>
+                0-596-00292-0
+            </dc:hasISBN>
             <dc:written_by>
                 <rdf:Description rdf:about="autor">
-                    <dc:has>
-                    Nombre
-                    </dc:has>
-                    <dc:has>
-                    Email
-                    </dc:has>
-                    <dc:has>
-                    Direccion
-                    </dc:has>
+                    <dc:hasName>
+                        Adair Ponce
+                    </dc:hasName>
+                    <dc:hasEmail>
+                        nosequien@oreilly.com/ail
+                    </dc:hasEmail>
+                    <dc:hasDireccion>
+                        Avenida del Conocimiento
+                    </dc:hasDireccion>
                 </rdf:Description>
             </dc:written_by>
             <dc:divided_by>
                 <rdf:Description rdf:about="capitulo">
-                    <dc:has>
-                        Nombre
-                    </dc:has>
+                    <dc:hasName>
+                        Bienvenida
+                    </dc:hasName>
                     <dc:divided_by>
                     <rdf:Description rdf:about="seccion">
-                        <dc:has>
-                            Titulo
-                        </dc:has>
-                        <dc:has>
-                            Nombre
-                        </dc:has>
-                        <dc:has>
-                            Contenido
-                        </dc:has>
+                        <dc:hasTitulo>
+                            Introduccion a los compiladores
+                        </dc:hasTitulo>
+                        <dc:hasNombre>
+                            ¿Qué es un compilador?
+                        </dc:hasNombre>
+                        <dc:hasContenido>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma
+                        </dc:hasContenido>
                     </rdf:Description>
                     </dc:divided_by>
                 </rdf:Description>
